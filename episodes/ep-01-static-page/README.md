@@ -41,14 +41,17 @@ It is your turn to get the infrastructure up and running by modifying the Terraf
 After you are done with this challenge, you can remove your resources by running `terraform destroy`.
 
 # What did I learn?
+
 - Cloud Storage as GCP service
 - Cloud Storage as Terraform resource 
 - Uploading files to Cloud Storage using Terraform 
 - Exposing Cloud Storage files as a static web page
 
 # 🐾 Special treats 🐾 
+
 - You can learn more about Cloud Storage [here](https://cloud.google.com/storage?hl=en). 
 
 # Disclaimers 
+
 Files `index.html` and `cat.jpeg` were generated using AI.
 
