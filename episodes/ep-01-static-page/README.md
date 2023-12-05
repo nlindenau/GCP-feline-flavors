@@ -37,7 +37,7 @@ You need to change 3 resources (the bucket, the page file, and the picture file)
 4. Expand the Terraform configuration according to the comments in the code.
 5. Inspect the incoming changes by running `terraform plan`. Does the output in your console look like you have expected?
 6. Run `terraform apply` to perform infrastructure changes. When prompted, type `yes`.
-7. Navigate to Google Cloud Platform Console, search for `Cloud Storage` and find your newly created bucket. Navigate inside the bucket and find the link to your page.
+7. Navigate to Google Cloud Platform Console, search for `Cloud Storage` and find your newly created bucket. Navigate inside the bucket and find the link to your page (index.html), copy the URL and open it in your browser.
 
 After you are done with this challenge, you can remove your resources by running `terraform destroy`.
 
