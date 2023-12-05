@@ -49,6 +49,7 @@ After you are done with this challenge, you can remove your resources by running
 
 # 🐾 Special treats 🐾 
 
+- Files can change. When you would update any of the files, the old file is practically lost in Cloud Storage. To preserve older versions of the file, you can use a Cloud Storage feature called [versioning](https://cloud.google.com/storage/docs/object-versioning). Try enabling versioning on our bucket, by modifying the `storage.tf` file - you will need to add a (versioning block)[https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket#nested_versioning] to the `fancy-feline-deli-static-page` resource. Reapply the Terraform configuration. Modify either `cat.jpg` or `index.html` file, reapply the Terraform configuration, and explore the Google Cloud Platform console to see what happened!
 - You can learn more about Cloud Storage [here](https://cloud.google.com/storage?hl=en). 
 
 # Disclaimers 
