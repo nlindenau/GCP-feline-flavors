@@ -18,3 +18,10 @@ variable "zone" {
   #If you do not want to enter your zone when running terraform operations, you could pass the value as default.
   #default=""
 }
+
+variable "bucket_name" {
+  type        = string
+  description = "This is a bucket for your Cloud Storage Bucket. It must be globally unique."
+  #If you do not want to enter your bucket when running terraform operations, you could pass the value as default.
+  #default=""
+}
