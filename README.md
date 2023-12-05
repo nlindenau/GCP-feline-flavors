@@ -11,6 +11,18 @@ You will navigate challenges of building your own Google Cloud Platform infrastr
 
 Rather than a tutorial, it is a series of signposts to point you in the right direction. The Feline Flavors Deli will provide you with the outlines and tips and you will fill in the blanks.
 
+# Requirements 
+- [GCP account](https://cloud.google.com/)
+- [gcloud CLI](https://cloud.google.com/sdk/gcloud)
+- [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
+Basic programming knowledge and understanding of cloud concepts will help you to get the most out of this journey.
+
+# How to navigate 
+Each lesson is contained as an own episode. An episode is contained in a folder in this repository.
+You can do singular episodes in whatever order you see fit or interesting, but the suggested order is to do it according to the numbers of the episodes.
+Instructions are included in the README.md of the episode.
+
 # Backstory (by ChatGPT)
 
 Once upon a time in a quaint town, there lived a bright-eyed and bushy-tailed orange Siberian cat named Eppu. Eppu wasn't your ordinary feline; he was a visionary, an entrepreneurial cat with dreams as big as his love for treats.
