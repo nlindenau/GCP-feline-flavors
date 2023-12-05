@@ -31,7 +31,7 @@ Finally, in `storage.tf` he has drafted the Cloud Storage resources. This is the
 It is your turn to get the infrastructure up and running by modifying the Terraform code to match the needs of the page. The Cat Engineer did leave helpful tips on what exactly you need to do in the form of code comments. The comments also include tips and explanations on things, that might not be obvious at first glance.
 
 1. In your console, navigate inside the `terraform` folder.
-2. Inspect the code in the Terraform folder.
+2. Inspect the code in the Terraform folder. Verify, that you can find the `storage.tf` file. This will be the file that you will need to modify.
 3. Initialize Terraform with `terraform init`.
 4. Expand the Terraform configuration according to the comments in the code. You need to change 3 resources (the bucket, the page file, and the picture file). There are in total 5 changes you need to make in order to make the configuration valid.
 5. Inspect the incoming changes by running `terraform plan`. Does the output in your console look like you have expected?
