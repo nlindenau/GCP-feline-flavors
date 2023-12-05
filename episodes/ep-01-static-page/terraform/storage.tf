@@ -1,5 +1,5 @@
 # This resource controls our bucket
-# You need to modify this resource.
+# You need to modify this resource
 resource "google_storage_bucket" "fancy-feline-deli-static-page" {
   name          = var.bucket_name
   location      = var.region
@@ -11,31 +11,31 @@ resource "google_storage_bucket" "fancy-feline-deli-static-page" {
 
   #This blocks allows you to use a file stored in the bucket as a static web page
   website {
-    main_page_suffix = "index.html" # What is the file name of the main page?
+    main_page_suffix = "" # Fill in the name of the file in Cloud Storage, which will be used as the landing page
   }
 }
 
-# This is an access control rule that allows all users to Read the objects inside our bucket
-# You do not need to modify this resource.
-resource "google_storage_bucket_acl" "image-store-acl" {
-  bucket = google_storage_bucket.image-store.name
-
-  role_entity = [
-    "OWNER:user-my.email@gmail.com",
-    "READER:group-mygroup",
-  ]
-}
 
 #This resource uploads the html file to our bucket
+#You need to modify this resource
 resource "google_storage_bucket_object" "page" {
-  name   = "index.html"
-  source = "../html/index.html"
+  name   = "" # Fill in the file name, under which the object will be stored in Cloud Storage
+  source = "" # Fill in the relative path to index.html file on your computer
   bucket = google_storage_bucket.fancy-feline-deli-static-page.name
 }
 
 #This resource uploads the picture file to our bucket
+#You need to modify this resource
 resource "google_storage_bucket_object" "picture" {
-  name   = "cat.jpeg"
-  source = "../html/cat.jpeg"
+  name   = "" # Fill in the file name, under which the object will be stored in Cloud Storage
+  source = "" # Fill in the relative path to cat.jpeg file on your computer
   bucket = google_storage_bucket.fancy-feline-deli-static-page.name
+}
+
+# This resource allows all users to view the contents of the bucket.
+# You do not need to modify this resource
+resource "google_storage_bucket_iam_member" "all_users" {
+  bucket = google_storage_bucket.fancy-feline-deli-static-page.name
+  role   = "roles/storage.objectViewer"
+  member = "allUsers"
 }
