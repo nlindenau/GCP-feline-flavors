@@ -5,23 +5,34 @@ Image generated using Bing AI.
 
 Welcome to a narrative learning journey, where you are tasked with helping an entrepreneurial feline in building his cat snacks retail empire named Feline Flavors Deli.
 
-The goal is to learn basics of GCP and Terraform, while helping Eppu the Siberian Cat to launch his online business.
+The goal is to learn basics of GCP, while helping Eppu the Siberian Cat to launch his online business.
 
-You will navigate challenges of building your own Google Cloud Platform infrastructure with Terraform.
+You will navigate challenges of building your own Google Cloud Platform infrastructure with Terraform. Each lesson is in a form of a small episode - the episode contains a common cloud architecture scenario, in which you will familiarize yourself with the components needed to build a standard solution.
 
-Rather than a tutorial, it is a series of signposts to point you in the right direction. The Feline Flavors Deli will provide you with the outlines and tips and you will fill in the blanks.
+Rather than a tutorial, it is a series of signposts to point you in the right direction, so keep Terraform and GCP documentation close by to search for the right answers on how to solve the problems ahead of you.
+
+The Feline Flavors Deli Chief Cat Engineer will provide you with the outlines and tips and you will fill in the blanks, by configuring the resources 🐾 
 
 # Requirements 
+Basic programming knowledge and understanding of cloud concepts will help you to get the most out of this journey.
 - [GCP account](https://cloud.google.com/)
 - [gcloud CLI](https://cloud.google.com/sdk/gcloud)
 - [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
-Basic programming knowledge and understanding of cloud concepts will help you to get the most out of this journey.
+You also will need your own GCP project, in which you will create your resources. You can learn more about projects [here](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+
+Note that creating resources might incur costs. Read the GCP pricing policy [here](https://cloud.google.com/pricing). 
 
 # How to navigate 
-Each lesson is contained as an own episode. An episode is contained in a folder in this repository.
-You can do singular episodes in whatever order you see fit or interesting, but the suggested order is to do it according to the numbers of the episodes.
-Instructions are included in the README.md of the episode.
+Each lesson is contained in a short episode, in which Fancy Feline Deli is facing a digital transformation challenge.
+
+You can find the episodes in the `Episodes` folder. The episodes are independent, so you can follow them in whatever order you find interesting. It is recommended to follow the numerical order, starting from ep01, to start with the simplest scenarios.
+
+Each episode has an introductory short story, which will tell you more about the challenge you will be solving and where did it come from, as well as a `Theory` part, which introduces you to the relevant Google Cloud resources.
+
+In `What do I need to do?` part, you will find tips on how to complete the solution. The terraform source codes contains more explanations and tips on how to proceed.
+`What did I learn?` lists the concepts you should be comfortable with after deploying the solutions.
+In `🐾 Special treats 🐾` you will find additional information and extra challenges, in case you want do more.
 
 # Backstory (by ChatGPT)
 
@@ -39,4 +50,4 @@ Eppu, the entrepreneurial orange Siberian cat, proved that with a sprinkle of am
 
 # Disclaimer 
 
-AI generated content is used sporadically and labeled as such, either with a comment in code or by a remark in text. If there is no such disclaimer, the content is created by me :)
+AI generated content is used sporadically and labeled as such, either with a comment in code or by a remark in text. If there is no such disclaimer, the content is created by me, Nicole :)
