@@ -1,13 +1,13 @@
 # This resource controls our bucket
 # You need to modify this resource
 resource "google_storage_bucket" "fancy-feline-deli-static-page" {
-  name          = var.bucket_name
-  location      = var.region
+  name     = var.bucket_name
+  location = var.region
 
   #When deleting your bucket, Terraform will also delete the objects stored inside the bucket
   force_destroy = true
 
-  uniform_bucket_level_access = true  
+  uniform_bucket_level_access = true
 
   #This blocks allows you to use a file stored in the bucket as a static web page
   website {
