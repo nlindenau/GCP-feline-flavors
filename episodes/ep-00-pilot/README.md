@@ -26,22 +26,34 @@ Note that this is not a Terraform-focused "course". We will use Terraform only a
 
 # What do I need to do?
 
-Let's deploy our static web page to Google Cloud Platform! 
+First of all, you need your own GCP project in which the Feline Flavors Deli resources will live in. You can use the same project for all of the episodes. To start your own project, follow the Google Cloud provided [instructions](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+
+Make sure you have familiarized yourself with the requirements in the main README at the root of the repository and installed all the tools that you will need on your journey. Good preparation is pretty much half of the work done, isn't it?
 
 Chief Cat Engineer Eppu at Feline Flavors Deli has prepared a boilerplate Terraform code for you. 
 In the `main.tf` file, he has listed the Terraform providers that are needed to run the code.
 In the `providers.tf` he has configured the Google provider, to let Terraform know where will the resources be deployed. 
 In the `variables.tf`, he has listed the input variables that the Terraform code needs.
 Finally, in `storage.tf` he has drafted the Cloud Storage resources. 
+He has also described the components as comments in the code, so you could get familiar with how Terraform works on high level. 😸
+
+Before you will start deploying the resources, you need to authenticate yourself to Google Cloud. For now, we will use your own credentials to interact with GCP, but we will learn some alternatives later on. 
+
+To authenticate, we will use Application Default Credentials, meaning that we will authenticate using the `gcloud` cli, store the credentials on our machine and call the GCP APIs using those credentials. 
+Simply run `gcloud auth application-default login` command in your terminal and follow the interactive steps. 
+
+If you completed the authentication successfully, we can deploy our first resource!
 
 1. In your console, navigate inside the `terraform` folder.
-2. Inspect the code in the Terraform folder. 
-3. Initialize Terraform with `terraform init`.
-4.  Inspect the incoming changes by running `terraform plan`. Does the output in your console look like you have expected?
-5. Run `terraform apply` to perform infrastructure changes. When prompted, type `yes`.
+2. Inspect the code in the Terraform folder and familiarize yourself with the code components.
+3. [Initialize Terraform](https://developer.hashicorp.com/terraform/cli/commands/init) with `terraform init`.
+4. Inspect the incoming changes by running `terraform plan`. You can also learn more about the command [here](https://developer.hashicorp.com/terraform/cli/commands/plan).
+5. [Apply the changes](https://developer.hashicorp.com/terraform/cli/commands/apply) by running `terraform apply` to perform infrastructure changes. When prompted, type `yes`.
 6. Navigate to Google Cloud Platform Console, search for `Cloud Storage` and find your newly created bucket. 
 
-After you are done with this challenge, you can remove your resources by running `terraform destroy`.
+Congratulations on creating your first cloud resource and running your first terraform workflow! Chief Cat Engineer Eppu purrs happily, content with your progress. 🐱‍💻
+
+After you are done with this challenge, you can [remove your resources](https://developer.hashicorp.com/terraform/cli/commands/destroy) by running `terraform destroy`.
 
 # What did I learn?
 
