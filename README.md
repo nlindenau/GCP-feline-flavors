@@ -1,7 +1,19 @@
 # Feline Flavors Deli
 
-![Cloud Cat - by Bing](./images/kittycloud.jpeg)
+ <img src="images/kittycloud.jpeg" alt="Cloud Engineer cat - by Bing" width="300" height="300">
+
 Image generated using Bing AI.
+
+# Table of contents
+
+* [Introduction](#introduction) 
+* [Requirements](#requirements)
+* [Structure](#structure)
+    * [List of episodes](#list-of-episodes)
+* [Backstory](#backstory-by-chatgpt)
+* [Disclaimer](#disclaimer)
+
+# Introduction
 
 Welcome to a narrative learning journey, where you are tasked with helping an entrepreneurial feline in building his cat snacks retail empire named Feline Flavors Deli.
 
@@ -14,6 +26,7 @@ Rather than a tutorial, it is a series of signposts to point you in the right di
 The Feline Flavors Deli Chief Cat Engineer will provide you with the outlines and tips and you will fill in the blanks, by configuring the resources 🐾 
 
 # Requirements 
+
 Basic programming knowledge and understanding of cloud concepts will help you to get the most out of this journey.
 - [GCP account](https://cloud.google.com/)
 - [gcloud CLI](https://cloud.google.com/sdk/gcloud)
@@ -23,16 +36,23 @@ You also will need your own GCP project, in which you will create your resources
 
 Note that creating resources might incur costs. Read the GCP pricing policy [here](https://cloud.google.com/pricing). 
 
-# How to navigate 
+The best way to interact with the content is to clone this repository to your local machine.
+
+# Structure
+
 Each lesson is contained in a short episode, in which Fancy Feline Deli is facing a digital transformation challenge.
 
-You can find the episodes in the `Episodes` folder. The episodes are independent, so you can follow them in whatever order you find interesting. It is recommended to follow the numerical order, starting from ep01, to start with the simplest scenarios.
+You can find the episodes in the `Episodes` folder. The episodes are independent, but is recommended to follow the numerical order, starting from ep00 (pilot). Each episode is a bit more difficult than the previous one.
 
 Each episode has an introductory short story, which will tell you more about the challenge you will be solving and where did it come from, as well as a `Theory` part, which introduces you to the relevant Google Cloud resources.
 
 In `What do I need to do?` part, you will find tips on how to complete the solution. The terraform source codes contains more explanations and tips on how to proceed.
 `What did I learn?` lists the concepts you should be comfortable with after deploying the solutions.
 In `🐾 Special treats 🐾` you will find additional information and extra challenges, in case you want do more.
+
+## List of episodes
+00. [Pilot](/episodes/ep-00-pilot/)
+01. [Static web page](/episodes/ep-01-static-page/)
 
 # Backstory (by ChatGPT)
 
