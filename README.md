@@ -26,13 +26,17 @@ Note that creating resources might incur costs. Read the GCP pricing policy [her
 # How to navigate 
 Each lesson is contained in a short episode, in which Fancy Feline Deli is facing a digital transformation challenge.
 
-You can find the episodes in the `Episodes` folder. The episodes are independent, so you can follow them in whatever order you find interesting. It is recommended to follow the numerical order, starting from ep01, to start with the simplest scenarios.
+You can find the episodes in the `Episodes` folder. The episodes are independent, but is recommended to follow the numerical order, starting from ep00 (pilot). Each episode is a bit more difficult than the previous one.
 
 Each episode has an introductory short story, which will tell you more about the challenge you will be solving and where did it come from, as well as a `Theory` part, which introduces you to the relevant Google Cloud resources.
 
 In `What do I need to do?` part, you will find tips on how to complete the solution. The terraform source codes contains more explanations and tips on how to proceed.
 `What did I learn?` lists the concepts you should be comfortable with after deploying the solutions.
 In `🐾 Special treats 🐾` you will find additional information and extra challenges, in case you want do more.
+
+## List of episodes
+00. [Pilot](/episodes/ep-00-pilot/)
+01. [Static web page](/episodes/ep-01-static-page/)
 
 # Backstory (by ChatGPT)
 
