@@ -36,6 +36,8 @@ You also will need your own GCP project, in which you will create your resources
 
 Note that creating resources might incur costs. Read the GCP pricing policy [here](https://cloud.google.com/pricing). 
 
+The best way to interact with the content is to clone this repository to your local machine.
+
 # Structure
 
 Each lesson is contained in a short episode, in which Fancy Feline Deli is facing a digital transformation challenge.
