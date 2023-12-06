@@ -1,6 +1,6 @@
 # This resource controls our bucket
 # You need to modify this resource
-resource "google_storage_bucket" "fancy-feline-deli-static-page" {
+resource "google_storage_bucket" "feline-flavors-deli-static-page" {
   name     = var.bucket_name
   location = var.region
 
@@ -21,7 +21,7 @@ resource "google_storage_bucket" "fancy-feline-deli-static-page" {
 resource "google_storage_bucket_object" "page" {
   name   = "" # Fill in the file name, under which the object will be stored in Cloud Storage
   source = "" # Fill in the relative path to index.html file on your computer
-  bucket = google_storage_bucket.fancy-feline-deli-static-page.name
+  bucket = google_storage_bucket.feline-flavors-deli-static-page.name
 }
 
 #This resource uploads the picture file to our bucket
@@ -29,13 +29,13 @@ resource "google_storage_bucket_object" "page" {
 resource "google_storage_bucket_object" "picture" {
   name   = "" # Fill in the file name, under which the object will be stored in Cloud Storage
   source = "" # Fill in the relative path to cat.jpeg file on your computer
-  bucket = google_storage_bucket.fancy-feline-deli-static-page.name
+  bucket = google_storage_bucket.feline-flavors-deli-static-page.name
 }
 
 # This resource allows all users to view the contents of the bucket.
 # You do not need to modify this resource
 resource "google_storage_bucket_iam_member" "all_users" {
-  bucket = google_storage_bucket.fancy-feline-deli-static-page.name
+  bucket = google_storage_bucket.feline-flavors-deli-static-page.name
   role   = "roles/storage.objectViewer"
   member = "allUsers"
 }

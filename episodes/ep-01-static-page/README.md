@@ -1,6 +1,6 @@
 # Episode 01 - a static web page
 
-Eppu knew that Rome wasn't built in a day. So he decided to start small and host a simple static web page to help other cats find his info and order treats from the Fancy Feline Deli by calling or sending him a message (hopefully not by a pigeon - Eppu was not a big fan of birds!).
+Eppu knew that Rome wasn't built in a day. So he decided to start small and host a simple static web page to help other cats find his info and order treats from the Feline Flavors Deli by calling or sending him a message (hopefully not by a pigeon - Eppu was not a big fan of birds!).
 
 He asked his good friend ChatGPT to create him a simple static web page. Now it is up to you to help him get that page out to the world.
 
@@ -22,7 +22,7 @@ It is of course important to control who can access your data. You can either co
 
 Let's deploy our static web page to Google Cloud Platform! 
 
-Chief Cat Engineer Eppu at Fancy Feline Deli has prepared a boilerplate Terraform code for you. 
+Chief Cat Engineer Eppu at Feline Flavors Deli has prepared a boilerplate Terraform code for you. 
 In the `main.tf` file, he has listed the Terraform providers that are needed to run the code.
 In the `providers.tf` he has configured the Google provider, to let Terraform know where will the resources be deployed. 
 In the `variables.tf`, he has listed the input variables that the Terraform code needs.
@@ -49,7 +49,7 @@ After you are done with this challenge, you can remove your resources by running
 
 # 🐾 Special treats 🐾 
 
-- Files can change. When you would update any of the files, the old file is practically lost in Cloud Storage. To preserve older versions of the file, you can use a Cloud Storage feature called [versioning](https://cloud.google.com/storage/docs/object-versioning). Try enabling versioning on our bucket, by modifying the `storage.tf` file - you will need to add a (versioning block)[https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket#nested_versioning] to the `fancy-feline-deli-static-page` resource. Reapply the Terraform configuration. Modify either `cat.jpg` or `index.html` file, reapply the Terraform configuration, and explore the Google Cloud Platform console to see what happened!
+- Files can change. When you would update any of the files, the old file is practically lost in Cloud Storage. To preserve older versions of the file, you can use a Cloud Storage feature called [versioning](https://cloud.google.com/storage/docs/object-versioning). Try enabling versioning on our bucket, by modifying the `storage.tf` file - you will need to add a (versioning block)[https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket#nested_versioning] to the `feline-flavors-deli-static-page` resource. Reapply the Terraform configuration. Modify either `cat.jpg` or `index.html` file, reapply the Terraform configuration, and explore the Google Cloud Platform console to see what happened!
 - You can learn more about Cloud Storage [here](https://cloud.google.com/storage?hl=en). 
 
 # Disclaimers 
