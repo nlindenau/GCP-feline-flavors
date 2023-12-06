@@ -1,6 +1,7 @@
 # Feline Flavors Deli
 
-![Cloud Cat - by Bing](./images/kittycloud.jpeg)
+ <img src="images/kittycloud.jpeg" alt="Cloud Engineer cat - by Bing" width="300" height="300">
+ 
 Image generated using Bing AI.
 
 Welcome to a narrative learning journey, where you are tasked with helping an entrepreneurial feline in building his cat snacks retail empire named Feline Flavors Deli.
