@@ -1,8 +1,19 @@
 # Feline Flavors Deli
 
  <img src="images/kittycloud.jpeg" alt="Cloud Engineer cat - by Bing" width="300" height="300">
- 
+
 Image generated using Bing AI.
+
+# Table of contents
+
+* [Introduction](#introduction) 
+* [Requirements](#requirements)
+* [Structure](#structure)
+    * [List of episodes](#list-of-episodes)
+* [Backstory](#backstory-by-chatgpt)
+* [Disclaimer](#disclaimer)
+
+# Introduction
 
 Welcome to a narrative learning journey, where you are tasked with helping an entrepreneurial feline in building his cat snacks retail empire named Feline Flavors Deli.
 
@@ -24,7 +35,7 @@ You also will need your own GCP project, in which you will create your resources
 
 Note that creating resources might incur costs. Read the GCP pricing policy [here](https://cloud.google.com/pricing). 
 
-# How to navigate 
+# Structure
 Each lesson is contained in a short episode, in which Fancy Feline Deli is facing a digital transformation challenge.
 
 You can find the episodes in the `Episodes` folder. The episodes are independent, but is recommended to follow the numerical order, starting from ep00 (pilot). Each episode is a bit more difficult than the previous one.
