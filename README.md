@@ -26,6 +26,7 @@ Rather than a tutorial, it is a series of signposts to point you in the right di
 The Feline Flavors Deli Chief Cat Engineer will provide you with the outlines and tips and you will fill in the blanks, by configuring the resources 🐾 
 
 # Requirements 
+
 Basic programming knowledge and understanding of cloud concepts will help you to get the most out of this journey.
 - [GCP account](https://cloud.google.com/)
 - [gcloud CLI](https://cloud.google.com/sdk/gcloud)
@@ -36,6 +37,7 @@ You also will need your own GCP project, in which you will create your resources
 Note that creating resources might incur costs. Read the GCP pricing policy [here](https://cloud.google.com/pricing). 
 
 # Structure
+
 Each lesson is contained in a short episode, in which Fancy Feline Deli is facing a digital transformation challenge.
 
 You can find the episodes in the `Episodes` folder. The episodes are independent, but is recommended to follow the numerical order, starting from ep00 (pilot). Each episode is a bit more difficult than the previous one.
