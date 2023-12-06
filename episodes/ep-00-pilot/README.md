@@ -14,7 +14,15 @@ Before embarking on the journey to make Feline Flavors Deli greatest cat snack b
 
 # Theory
 
+Google Cloud Platform is a managed cloud service provider. This means that as a user, you can create all kinds of resources there and Google takes care of hosting them. Google Cloud Platform has multiple products - which are specialized services solving technical challenges. An example of a product is Compute Engine - a Compute Engine instance is essentially a Virtual Machine in the cloud.
 
+Think about a very typical [three layer architecture](https://www.ibm.com/topics/three-tier-architecture). Let's say you have an extremely simple web app, with a static landing page, MySQL database and Python backend. You could just create three VMs, with each VM hosting one of the layers and call it a day. But maintaining VMs is quite tedious and you could use that time for something else, like developing new features. This is where cloud services shine. You could use a Cloud Storage bucket for your frontend, Cloud SQL for the database and maybe even containerize your backend and deploy it on Cloud Run. This not only saves you time, but also allows you to take advantage of build-in features of those managed services, like autoscaling. 
+
+There are few ways in which you can build those resources in the cloud. You can go to the GCP console and click through the menus to configure and deploy your dream database. But this is quite labor intense operation. As you create more resources, tracking them gets more complex. Now imagine your friend builds a new application, with a similar architecture to yours and asks you for your help. Will you remember all the menus you clicked through and all the settings you had configure? 
+
+This is where Infrastructure as Code comes in handy. It allows you to declaratively describe your resources and create them in a replicable and reusable manner. For Google Cloud, Terraform is one of the IaC tools you can use. You can learn more about Terraform on Google Cloud [here](https://cloud.google.com/docs/terraform). Chief Cat Engineer Eppu decided that you will use Terraform, at is a mature tool and has a gentle learning curve.
+
+Note that this is not a Terraform-focused "course". We will use Terraform only as a tool for creating and destroying resources and the Terraform explanations will be kept minimum. You are of course welcome to study Terraform on your own!
 
 # What do I need to do?
 
@@ -45,5 +53,6 @@ After you are done with this challenge, you can remove your resources by running
 
 # 🐾 Special treats 🐾 
 
-- 
+- Learn more about Terraform [here](https://developer.hashicorp.com/terraform/tutorials).
+- If you are familiar with AWS or Azure, you can check out this [handy comparison of cloud offering](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison) by Google.
 
