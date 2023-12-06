@@ -50,4 +50,7 @@ Eppu, the entrepreneurial orange Siberian cat, proved that with a sprinkle of am
 
 # Disclaimer 
 
-AI generated content is used sporadically and labeled as such, either with a comment in code or by a remark in text. If there is no such disclaimer, the content is created by me, Nicole :)
+AI generated content is used sporadically and labeled as such, either with a comment in code or by a remark in text. 
+Code pulled from other sources is credited in the comments.
+
+If there is otherwise no disclaimer, the content is created by me, Nicole :)
